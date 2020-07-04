@@ -1,0 +1,10 @@
+Abrir o site https://predictcovid.com.br/
+Espera o Predict carregar
+Clicar em acessar -> document.querySelector("a[href='/home/']").click()
+esperamos carregar
+document.getElementById("email").value= "predictcovid@gmail.com"
+document.getElementById("password").value= "covid192021"
+document.getElementById("btnLogin").click()
+
+
+document.querySelector("a[href='/prediction/nova-analise/']").click()
