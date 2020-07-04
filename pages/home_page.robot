@@ -23,3 +23,9 @@ Clicar em enviar
 Verificar o envio da mensagem
     Wait Until Page Contains    Mensagem enviada com sucesso.
     Page Should Contain         Mensagem enviada com sucesso.
+
+Verificar se não existem os botões de acessar e cadastrar-se
+    Wait Until Page Contains    Nossos Colaboradores
+
+    Page Should Not Contain Element     ${BUTTON_ACESSAR}
+    Page Should Not Contain Element     ${BUTTON_CADASTRAR}

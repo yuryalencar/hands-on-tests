@@ -1,6 +1,7 @@
 *** Variables ***
-${BUTTON_ACESSAR}           css:a[href='/home/']
-${BUTTON_NOVA_ANALISE}      css:a[href='/prediction/nova-analise/']
+${BUTTON_ACESSAR}               css:a[href='/home/']
+${BUTTON_CADASTRAR}             css:a[href='/users/cadastrar/']
+${BUTTON_NOVA_ANALISE}          css:a[href='/prediction/nova-analise/']
 
 ${INPUT_EMAIL_LOGIN}        id:email
 ${INPUT_SENHA_LOGIN}        id:password
@@ -19,3 +20,5 @@ ${INPUT_EMAIL}                      id:inputEmail
 ${INPUT_MENSAGEM}                   id:textareaMessage
 
 ${ENVIAR_MENSAGEM_BUTTON}           id:buttonContact
+
+${INFORMACOES_BUTTON}               css:a[href='/']

@@ -21,3 +21,7 @@ Clicar em enviar feedback
 Ver uma mensagem de confirmação
     Page Should Contain         Obrigado por contribuir :)
     Page Should Contain         Seu feedback foi enviado e será avaliado pela nossa equipe.
+
+Clicar em informações
+    Wait Until Element Is Visible   ${INFORMACOES_BUTTON}
+    Click Element                   ${INFORMACOES_BUTTON}

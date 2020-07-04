@@ -5,5 +5,6 @@ Abrir o site do Predict
     Set Selenium Implicit Wait     10
 
 Fechar Navegador
+    Sleep       1
     Capture Page Screenshot
     Close Browser
