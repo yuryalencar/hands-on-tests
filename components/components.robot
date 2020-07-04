@@ -13,3 +13,9 @@ ${LABEL_INVALID_EMAIL_FORMAT}       email-error
 ${FEEDBACK_BUTTON}                  id:btnNovoCadastroFloating
 ${TEXT_AREA_FEEDBACK}               id:feedBackText
 ${SEND_FEEDBACK_BUTTON}             id:buttonSendFeedback
+
+${INPUT_NAME}                       id:inputName
+${INPUT_EMAIL}                      id:inputEmail
+${INPUT_MENSAGEM}                   id:textareaMessage
+
+${ENVIAR_MENSAGEM_BUTTON}           id:buttonContact
